@@ -11938,15 +11938,8 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>More things change, the more they remain the same</p>
-<p>Buzzwords represent fashionable variations on old themes, big collars turn into polos and fleece vests.</p>
-<p>Title inflation</p>
-<ul>
-<li>Excel monkey -&gt; Business Intelligence Analysts</li>
-<li>SQL report jockeys -&gt; Data Scientists</li>
-<li>Forecasters -&gt; Machine learning engineers, AI researchers</li>
-</ul>
-
+<p>Thesis: Nothing new under the sun, it's all just fashion, different words for things we did before.</p>
+<div style="align: center"><img src="220px-Gordon_Gekko.jpg" align="left" width="318"><img src="fleecevest.png" align="right" width="210"></a></div>
 </div>
 </div>
 </div></section></section><section><section>
@@ -11954,8 +11947,14 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Thesis: Nothing new under the sun, it's all just fashion.</p>
-<div style="align: center"><img src="220px-Gordon_Gekko.jpg" align="left" width="318"><img src="fleecevest.png" align="right" width="210"></a></div>
+<p>Doing similar things with different tools and a dose of title inflation</p>
+<ul>
+<li>Excel monkey -&gt; Business Intelligence Analyst</li>
+<li>SQL report jockey -&gt; Data Scientist</li>
+<li>Forecaster -&gt; Machine learning scientist, AI researcher</li>
+</ul>
+<p>More things change, the more they remain the same</p>
+
 </div>
 </div>
 </div></section></section><section><section>
@@ -11972,8 +11971,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>“It is said that there are no sudden changes in nature, and the common view has it that when we speak of a growth or a destruction, we always imagine a gradual growth or disappearance. Yet we have seen cases in which the alteration of existence involves not only a transition from one proportion to another, but also a transition, by a sudden leap, into a … qualitatively different thing; an interruption of a gradual process, differing qualitatively from the preceding, the former state” - G. W. F. Hegel (1770-1831)</p>
-<p>First dude to talk about the hype cycle and the tipping point</p>
+<p><img src="singularity.png" alt="Singularity"></p>
 
 </div>
 </div>
@@ -11982,20 +11980,35 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Many ML algorithms go back decades, we had a lot of the pieces but recently things took off:</p>
+<p>Small quantitative changes add up, and eventually reach a tipping point where you see a large qualitative change, like water turning to ice.</p>
+<p><em>“It is said that there are no sudden changes in nature, and the common view has it that when we speak of a growth or a destruction, we always imagine a gradual growth or disappearance. Yet we have seen cases in which the alteration of existence involves not only a transition from one proportion to another, but also a transition, by a sudden leap, into a … qualitatively different thing; an interruption of a gradual process, differing qualitatively from the preceding, the former state” </em></p>
+<p><em>G. W. F. Hegel (1770-1831)</em></p>
+<p>German philosopher, first to write about the hype cycle and the tipping point</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Many ML algorithms go back decades, we had most of the pieces but recently hit takeoff velocity:</p>
 <ul>
-<li>Much better hardware (especially Nvidia GPUs)</li>
+<li>Better hardware (especially Nvidia GPUs)</li>
 <li>Better algorithms (efficient backpropagation, new neural network architectures)</li>
 <li>Much more data from digital everything</li>
 </ul>
 <p>Virtuous cycle</p>
 <ul>
-<li>Early successes </li>
+<li><a href="https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html">AlexNet</a> was the first sign of spring <ul>
+<li>2012, very successful image classification deep NN</li>
+</ul>
+</li>
 <li>-&gt; More research</li>
 <li>-&gt; More deployed apps, speech recognition, image recognition, machine translation, self-driving cars, robots,</li>
 <li>-&gt; More data, more investment in hardware and algos</li>
 <li>-&gt; Huge advances in many applications</li>
-<li>-&gt; Huge growth in investment in research, hardware, perpetuating the cycle</li>
+<li>-&gt; Huge growth in investment in research, better hardware, perpetuating the cycle</li>
 <li>-&gt; General AI and beyond?</li>
 </ul>
 
@@ -12301,6 +12314,14 @@ a.anchor-link {
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Very-Important">Very Important<a class="anchor-link" href="#Very-Important">&#182;</a></h1><h3 id="These-are-all-in-sample-statistics-on-the-training-data">These are all in-sample statistics on the training data<a class="anchor-link" href="#These-are-all-in-sample-statistics-on-the-training-data">&#182;</a></h3><h3 id="Hence-the-disclaimer">Hence the disclaimer<a class="anchor-link" href="#Hence-the-disclaimer">&#182;</a></h3>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[69]:</div>
@@ -12420,16 +12441,7 @@ You can't just throw data at statistical models without knowing what you're doin
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="OLS-is--not-very-good-when-you-throw-a-lot-of-predictors-at-it,-and-don't-have-a-lot-of-data">OLS is  not very good when you throw a lot of predictors at it, and don't have a lot of data<a class="anchor-link" href="#OLS-is--not-very-good-when-you-throw-a-lot-of-predictors-at-it,-and-don't-have-a-lot-of-data">&#182;</a></h1><ul>
-<li>squares</li>
-<li>curse of dimensionality</li>
-<li>exponential growth is a powerful thing</li>
-<li>underlies growth in funds ... underlies encryption</li>
-<li>more dimensions you add, the more likely that you have an outlier along some dimension</li>
-<li>outliers have a lot of leverage when you are minimizing squared error</li>
-<li>show a long polynomial</li>
-<li>c(deg+n, n)</li>
-<li>you have 20 parameters, one of them will have a 5% significant p-value</li>
-<li>This is really the crux of why machine learning (or robust statistics) tends to predict better, there's a lot of hard work and cheap tricks to ensure outliers and spurious correlations don't lead your model astray. </li>
+<li>Quick demo</li>
 </ul>
 
 </div>
@@ -12617,13 +12629,33 @@ You can't just throw data at statistical models without knowing what you're doin
 </div>
 </div>
 
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>When you increase the number of dimensions, most of the data are outliers<ul>
+<li>Even if you increase the amount of data!</li>
+</ul>
+</li>
+<li>Looked at another way, if 10% of your data on a dimension is an outlier:<ul>
+<li>after 7 dimensions, most of your data is an outlier on some dimension (1-0.9^7)</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[125]:</div>
+<div class="prompt input_prompt">In&nbsp;[137]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="mf">0.5</span> <span class="o">-</span> <span class="p">(</span><span class="mf">0.5</span> <span class="o">**</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">n</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">50</span><span class="p">)]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x1</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">50</span><span class="p">)]</span>
+<span class="n">y1</span> <span class="o">=</span> <span class="p">[(</span><span class="mf">0.9</span> <span class="o">**</span> <span class="n">n</span><span class="p">)</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">50</span><span class="p">)]</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;x&#39;</span> <span class="p">:</span> <span class="n">x1</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span> <span class="p">:</span> <span class="n">y1</span><span class="p">})</span>
 </pre></div>
 
 </div>
@@ -12636,61 +12668,282 @@ You can't just throw data at statistical models without knowing what you're doin
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[125]:</div>
+<div class="prompt output_prompt">Out[137]:</div>
 
 
 
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
-<div class="output_text output_subarea output_execute_result">
-<pre>[0.25,
- 0.1464466094067262,
- 0.1031497370079501,
- 0.07955179237314275,
- 0.06472471835193794,
- 0.05455064092983036,
- 0.04713816786804664,
- 0.04149797839766439,
- 0.03706264385635477,
- 0.033483504231596295,
- 0.030534544669146846,
- 0.028062843659153236,
- 0.02596124283041429,
- 0.02415242349469021,
- 0.02257919804479175,
- 0.02119835965071315,
- 0.01997665657260339,
- 0.018888081552927427,
- 0.017912001028752456,
- 0.0170318355375772,
- 0.016234110738054197,
- 0.015507763049368795,
- 0.014843623625100943,
- 0.01423402942319707,
- 0.013672526293857235,
- 0.013153639651282911,
- 0.012672695438784465,
- 0.012225678973713405,
- 0.01180912264088907,
- 0.011420015782877047,
- 0.011055731832283644,
- 0.010713968956149955,
- 0.010392701376999325,
- 0.010090139195281844,
- 0.009804695030113275,
- 0.009534956165542507,
- 0.009279661170703002,
- 0.00903768017736456,
- 0.008807998164367947,
- 0.008589700727374472,
- 0.008381961913256186,
- 0.008184033777904998,
- 0.00799523738920177,
- 0.007814955047072136,
- 0.007642623532784387,
- 0.007477728232063052,
- 0.007319798002848987,
- 0.007168400679906206,
- 0.007023139125949984]</pre>
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>x</th>
+      <th>y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0.900000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>0.810000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>0.729000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>0.656100</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>0.590490</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>0.531441</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>0.478297</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>0.430467</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>0.387420</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>0.348678</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>11</td>
+      <td>0.313811</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>12</td>
+      <td>0.282430</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>13</td>
+      <td>0.254187</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>14</td>
+      <td>0.228768</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>15</td>
+      <td>0.205891</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>16</td>
+      <td>0.185302</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>17</td>
+      <td>0.166772</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>18</td>
+      <td>0.150095</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>19</td>
+      <td>0.135085</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>20</td>
+      <td>0.121577</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>21</td>
+      <td>0.109419</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>22</td>
+      <td>0.098477</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>23</td>
+      <td>0.088629</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>24</td>
+      <td>0.079766</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>25</td>
+      <td>0.071790</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>26</td>
+      <td>0.064611</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>27</td>
+      <td>0.058150</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>28</td>
+      <td>0.052335</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>29</td>
+      <td>0.047101</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>30</td>
+      <td>0.042391</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>31</td>
+      <td>0.038152</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>32</td>
+      <td>0.034337</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>33</td>
+      <td>0.030903</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>34</td>
+      <td>0.027813</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>35</td>
+      <td>0.025032</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>36</td>
+      <td>0.022528</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>37</td>
+      <td>0.020276</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>38</td>
+      <td>0.018248</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>39</td>
+      <td>0.016423</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>40</td>
+      <td>0.014781</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>41</td>
+      <td>0.013303</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>42</td>
+      <td>0.011973</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>43</td>
+      <td>0.010775</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>44</td>
+      <td>0.009698</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>45</td>
+      <td>0.008728</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>46</td>
+      <td>0.007855</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>47</td>
+      <td>0.007070</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>48</td>
+      <td>0.006363</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>49</td>
+      <td>0.005726</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </div>
 
 </div>
@@ -12698,6 +12951,73 @@ You can't just throw data at statistical models without knowing what you're doin
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[136]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mychart</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">x1</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">y1</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<div id="66994304-8306-4734-a1bd-8b90405c4851" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";
+        Plotly.plot(
+            '66994304-8306-4734-a1bd-8b90405c4851',
+            [{"marker": {"size": 2}, "mode": "markers", "x": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0], "y": [0.9, 0.81, 0.7290000000000001, 0.6561, 0.5904900000000001, 0.531441, 0.4782969000000001, 0.4304672100000001, 0.3874204890000001, 0.3486784401000001, 0.31381059609000006, 0.2824295364810001, 0.2541865828329001, 0.2287679245496101, 0.20589113209464907, 0.18530201888518416, 0.16677181699666577, 0.15009463529699918, 0.13508517176729928, 0.12157665459056935, 0.10941898913151242, 0.09847709021836118, 0.08862938119652507, 0.07976644307687256, 0.0717897987691853, 0.06461081889226677, 0.058149737003040096, 0.05233476330273609, 0.047101286972462485, 0.04239115827521624, 0.038152042447694615, 0.03433683820292515, 0.030903154382632636, 0.027812838944369374, 0.025031555049932437, 0.022528399544939195, 0.020275559590445275, 0.01824800363140075, 0.016423203268260675, 0.014780882941434608, 0.013302794647291146, 0.011972515182562033, 0.01077526366430583, 0.009697737297875247, 0.008727963568087723, 0.00785516721127895, 0.007069650490151055, 0.00636268544113595, 0.005726416897022355], "type": "scatter", "uid": "3da58fc2-bb57-11e8-857d-ed5d4f2f6c04"}],
+            {"yaxis": {"autorange": true}},
+            {"showLink": true, "linkText": "Export to plot.ly"}
+        ).then(function () {return Plotly.addFrames('66994304-8306-4734-a1bd-8b90405c4851',{});}).then(function(){Plotly.animate('66994304-8306-4734-a1bd-8b90405c4851');})
+        });</script>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Curse of dimensionality</li>
+<li>Exponential growth is a powerful thing</li>
+<li>Underlies growth in funds ... underlies encryption</li>
+<li>More dimensions you add, the more likely that you have an outlier along some dimension</li>
+<li>Outliers have a lot of leverage when you are minimizing squared error</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Suppose you want nonlinearity, 3 inflection points in each direction
+ <img src="wolfram.png" alt="wolfram.png"></li>
+<li>(I want to say C(deg+n, deg) but doesn't look right, left as an exercise)</li>
+</ul>
+
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12725,32 +13045,32 @@ You can't just throw data at statistical models without knowing what you're doin
 </div>
 </div>
 
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">two</span> <span class="n">key</span> <span class="n">concepts</span> <span class="o">-</span> <span class="n">bias</span><span class="o">/</span><span class="n">variance</span> <span class="n">tradeoff</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="WAKE-THE-F**-UP!!!">WAKE THE F<em>**</em> UP!!!<a class="anchor-link" href="#WAKE-THE-F**-UP!!!">&#182;</a></h1><h2 id="2-key-points">2 key points<a class="anchor-link" href="#2-key-points">&#182;</a></h2><h2 id="1.-The-Bias/Variance-Tradeoff">1. <a href="http://scott.fortmann-roe.com/docs/BiasVariance.html">The Bias/Variance Tradeoff</a><a class="anchor-link" href="#1.-The-Bias/Variance-Tradeoff">&#182;</a></h2><p><img src="biasvariance.png" alt="biasvariance.png"></p>
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ROC</span> <span class="n">curve</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="2.-The-ROC-curve-">2. <a href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic">The ROC curve </a><a class="anchor-link" href="#2.-The-ROC-curve-">&#182;</a></h1><p><img src="ROC.png" alt="ROC.png"></p>
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
-
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="1-key-takeaway--">1 key takeaway -<a class="anchor-link" href="#1-key-takeaway--">&#182;</a></h1><h1 id="ML-uses-out-of-sample-prediction-error-to-identify-optimal-bias-variance-tradeoff">ML uses out-of-sample prediction error to identify optimal bias-variance tradeoff<a class="anchor-link" href="#ML-uses-out-of-sample-prediction-error-to-identify-optimal-bias-variance-tradeoff">&#182;</a></h1><h2 id="If-you-know-what-this-means-and-how-to-do-it,-you-are-now-a-machine-learning-engineer">If you know what this means and how to do it, you are now a machine learning engineer<a class="anchor-link" href="#If-you-know-what-this-means-and-how-to-do-it,-you-are-now-a-machine-learning-engineer">&#182;</a></h2>
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12805,7 +13125,7 @@ You can't just throw data at statistical models without knowing what you're doin
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="In-statistics,-a-lot-of-times-you-get-not-very-good-answers-and-know-why:-your-data-does-not-fit-the-assumptions-of-OLS.-In-machine-learning,-you-often-get-better-answers-and-you-don&#8217;t-really-know-why-they-are-so-good.">In statistics, a lot of times you get not-very-good answers and know why: your data does not fit the assumptions of OLS. In machine learning, you often get better answers and you don&#8217;t really know why they are so good.<a class="anchor-link" href="#In-statistics,-a-lot-of-times-you-get-not-very-good-answers-and-know-why:-your-data-does-not-fit-the-assumptions-of-OLS.-In-machine-learning,-you-often-get-better-answers-and-you-don&#8217;t-really-know-why-they-are-so-good.">&#182;</a></h1>
+<h1 id="In-statistics,-you-get-not-very-good-predictions-and-you-know-why-they-are-not-very-good-(simple-model-(bias),-violations-of-assumptions-of-OLS)">In statistics, you get not very good predictions and you know why they are not very good (simple model (bias), violations of assumptions of OLS)<a class="anchor-link" href="#In-statistics,-you-get-not-very-good-predictions-and-you-know-why-they-are-not-very-good-(simple-model-(bias),-violations-of-assumptions-of-OLS)">&#182;</a></h1><h1 id="In-machine-learning,-you-get-very-good-predcitions-but-you-don't-know-why-they-are-very-good-(-complex-models,-opaque-attribution)">In machine learning, you get very good predcitions but you don't know why they are very good ( complex models, opaque attribution)<a class="anchor-link" href="#In-machine-learning,-you-get-very-good-predcitions-but-you-don't-know-why-they-are-very-good-(-complex-models,-opaque-attribution)">&#182;</a></h1>
 </div>
 </div>
 </div></section></section><section><section>
@@ -12821,14 +13141,6 @@ You can't just throw data at statistical models without knowing what you're doin
 <li>With adequate data and good methodology you avoid overfitting</li>
 </ul>
 
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="In-statistics,-you-get-not-very-good-predictions-and-you-know-why-they-are-not-very-good-(simple-model-(bias),-violations-of-assumptions-of-OLS)">In statistics, you get not very good predictions and you know why they are not very good (simple model (bias), violations of assumptions of OLS)<a class="anchor-link" href="#In-statistics,-you-get-not-very-good-predictions-and-you-know-why-they-are-not-very-good-(simple-model-(bias),-violations-of-assumptions-of-OLS)">&#182;</a></h1><h1 id="In-machine-learning,-you-get-very-good-predcitions-but-you-don't-know-why-they-are-very-good-(-complex-models,-opaque-attribution)">In machine learning, you get very good predcitions but you don't know why they are very good ( complex models, opaque attribution)<a class="anchor-link" href="#In-machine-learning,-you-get-very-good-predcitions-but-you-don't-know-why-they-are-very-good-(-complex-models,-opaque-attribution)">&#182;</a></h1>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13107,19 +13419,64 @@ codewars.com - solve simple problems in browser, run test cases, then see how ot
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">alt</span> <span class="n">data</span> <span class="n">specifically</span> <span class="o">-</span> <span class="n">alternativedata</span><span class="o">.</span><span class="n">org</span> <span class="n">slide</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">Data Science Hierarchy of Needs</a></p>
+<p>Data engineering is 80% of the battle.</p>
+<p><img src="hierarchy.png" alt="image"></p>
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Alternative Data</p>
+<ul>
+<li>Everyone is selling your data ... Free apps, checkins, expense trackers, loyalty cards? just a way for our HF overlords to get richer  </li>
+<li>It's 80%/20% data engineering / data science - this stuff is very resource-intensive</li>
+<li>If you think you have a great idea, Jim Simons probably already got there 10 years ago - jk but real edges fleeting, exclusive data / quant edge hard to find/expensive/ephemeral/rapidly evolving - even more so than other quant</li>
+<li>Bifurcation between the real quants like RenTech, Two Sigma, maybe AQR which are basically tech firms, and fundamentalists, the latter will probably mostly use alt data research / data from 3rd parties, maybe have a couple of data scientist types internally for projects</li>
+<li>Might be transformative, if all economic activity is instrumented and feeds directly into nowcasts / markets </li>
+<li>Might be worst of 1984/Brave New World, everyone carrying a telescreen in their pocket which is as addictive as soma.</li>
+</ul>
 
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Alternative Data Landscape - <a href="http://alternativedata.org">http://alternativedata.org</a></p>
+<p><img src="altdataorg.png" alt="image"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="http://mattturck.com/the-new-gold-rush-wall-street-wants-your-data/">http://mattturck.com/the-new-gold-rush-wall-street-wants-your-data/</a>
+<img src="Alternative-Data-Map1.png" alt="image"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Matt Turck - <a href="http://mattturck.com/wp-content/uploads/2017/05/Matt-Turck-FirstMark-2017-Big-Data-Landscape.png">http://mattturck.com/wp-content/uploads/2017/05/Matt-Turck-FirstMark-2017-Big-Data-Landscape.png</a></p>
+<p><img src="Matt-Turck-FirstMark-2017-Big-Data-Landscape.png" alt="image"></p>
+
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>

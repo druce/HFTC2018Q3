@@ -13267,6 +13267,51 @@ You can't just throw data at statistical models without knowing what you're doin
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Neural-Network-Model">Neural Network Model<a class="anchor-link" href="#Neural-Network-Model">&#182;</a></h1><p><img src="NN.png" alt="NN.png"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Random-Forest-Model-(Decision-tree-ensemble)">Random Forest Model (Decision tree ensemble)<a class="anchor-link" href="#Random-Forest-Model-(Decision-tree-ensemble)">&#182;</a></h1><p><img src="RF.png" alt="RF.png"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Recurrent-Neural-Network-(GRU)">Recurrent Neural Network (GRU)<a class="anchor-link" href="#Recurrent-Neural-Network-(GRU)">&#182;</a></h1><p><img src="GRU.png" alt="GRU.png"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Boost-models-are-very-popular-but-this-one-didn't-work-too-well">Boost models are very popular but this one didn't work too well<a class="anchor-link" href="#Boost-models-are-very-popular-but-this-one-didn't-work-too-well">&#182;</a></h1><h3 id="Random-forest-:-ensemble-of-parallel-decision-trees-that-are-trained-in-parallel-on-subsets-of-the-predictors-and-vote">Random forest : ensemble of parallel decision trees that are trained in parallel on subsets of the predictors and vote<a class="anchor-link" href="#Random-forest-:-ensemble-of-parallel-decision-trees-that-are-trained-in-parallel-on-subsets-of-the-predictors-and-vote">&#182;</a></h3><h3 id="Boosted-decision-trees:-ensemble-of-decision-trees-that-are-trained-sequentially-with-increasing-weight-on-incorrectly-predicted-observations">Boosted decision trees: ensemble of decision trees that are trained sequentially with increasing weight on incorrectly predicted observations<a class="anchor-link" href="#Boosted-decision-trees:-ensemble-of-decision-trees-that-are-trained-sequentially-with-increasing-weight-on-incorrectly-predicted-observations">&#182;</a></h3><h3 id="Possibly-XGBoost-is-mostly-used-for-classification-or-possibly-needs-further-tuning">Possibly XGBoost is mostly used for classification or possibly needs further tuning<a class="anchor-link" href="#Possibly-XGBoost-is-mostly-used-for-classification-or-possibly-needs-further-tuning">&#182;</a></h3><p><img src="XGBoost.png" alt="XGBoost.png"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Portfolio-example">Portfolio example<a class="anchor-link" href="#Portfolio-example">&#182;</a></h1><h3 id="Classify-industries-into-quartiles-using-Ken-French-data">Classify industries into quartiles using Ken French data<a class="anchor-link" href="#Classify-industries-into-quartiles-using-Ken-French-data">&#182;</a></h3><h3 id="Notebook"><a href="https://github.com/druce/Machine-learning-for-financial-market-prediction/blob/master/Replicate%20Paper%20by%20Rapach%2C%20Strauss%2C%20Tu%2C%20Zhou-4-Way%20Classification.ipynb">Notebook</a><a class="anchor-link" href="#Notebook">&#182;</a></h3><p><img src="AAblogpost.png" alt="AAblogpost.png"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="In-statistics,-you-get-not-very-good-predictions-and-you-know-why-they-are-not-very-good-(simple-model-(bias),-violations-of-assumptions-of-OLS)">In statistics, you get not very good predictions and you know why they are not very good (simple model (bias), violations of assumptions of OLS)<a class="anchor-link" href="#In-statistics,-you-get-not-very-good-predictions-and-you-know-why-they-are-not-very-good-(simple-model-(bias),-violations-of-assumptions-of-OLS)">&#182;</a></h1><h1 id="In-machine-learning,-you-get-good-predictions-but-you-don't-know-why-they-are-very-good-(-complex-models,-opaque-attribution)">In machine learning, you get good predictions but you don't know why they are very good ( complex models, opaque attribution)<a class="anchor-link" href="#In-machine-learning,-you-get-good-predictions-but-you-don't-know-why-they-are-very-good-(-complex-models,-opaque-attribution)">&#182;</a></h1>
 </div>
 </div>
@@ -13277,8 +13322,12 @@ You can't just throw data at statistical models without knowing what you're doin
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>People talk about machine learning and complex models they go, ooh, you're data mining, overfitting: In fact, very focused on being robust, not chasing outliers, avoiding overfitting</li>
-<li>You can overfit with linear models</li>
-<li><a href="https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html">Power poses - p-hacking - small sample sizes</a></li>
+<li>You can overfit with linear models when you run many models on small samples and just publish the ones that work.<ul>
+<li><a href="https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html">Power poses - Amy Cuddy</a></li>
+<li><a href="https://www.buzzfeednews.com/article/stephaniemlee/brian-wansink-retired-cornell">Brian Wansink</a></li>
+<li>These practices were widespread, unfortunate academics were penalized not because they were worse, but because they were popular media darlings.</li>
+</ul>
+</li>
 <li>With adequate data and good methodology you avoid overfitting</li>
 </ul>
 
@@ -13529,39 +13578,6 @@ finally </li>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Big data:</p>
-
-<pre><code>- computationally large: bigger than one machine
-- statistical: large enough for arbitrarily complex models without p-value problems
-- a stack: Spark/Hadoop etc.
-
-</code></pre>
-<p>Machine learning:</p>
-
-<pre><code>- a menagerie of brute-force-ish methods for prediction
-- separation of training from tuning and testing
-
-</code></pre>
-<p>Deep learning:</p>
-
-<pre><code>- neural networks are a particular algorithm of machine learning
-- deep learning is when you chain many neural networks and train the whole thing end-to-end 
-- amazing emergent behavior like machine translation
-
-</code></pre>
-<p>HFs</p>
-
-<pre><code>- better prediction using alt data
-- quant funds , HFT
-- crazy models like numerai</code></pre>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Learning-resources">Learning resources<a class="anchor-link" href="#Learning-resources">&#182;</a></h1><p>This deck is based on a couple of blog posts I did</p>
 <ul>
 <li><a href="https://alphaarchitect.com/2017/09/27/machine-learning-investors-primer/">https://alphaarchitect.com/2017/09/27/machine-learning-investors-primer/</a></li>
@@ -13661,7 +13677,7 @@ finally </li>
 
 </div>
 </div>
-</div><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
